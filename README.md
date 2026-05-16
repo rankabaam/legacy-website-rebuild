@@ -6,11 +6,11 @@ Public website: https://lccaz.com/
 
 ## Overview
 
-This project documents the rebuild of a legacy organization website that was originally created by someone else and later maintained through an admin account for basic content updates such as photos and sermon videos.
+This project documents the rebuild of a legacy organization website that was originally created by someone else and later maintained through an administrator account for routine content updates such as photos and sermon videos.
 
 After the original XE-based website became difficult to maintain due to long-term CMS support limitations and hosting/platform changes, the site was rebuilt using WordPress with a reorganized structure for public-facing content, media, and service-related resources.
 
-This repository does not contain production credentials, private server settings, internal church records, or original media assets. It is a sanitized portfolio documentation repository focused on the rebuild process, structure, and design decisions.
+This repository does not contain production credentials, private server settings, internal church records, or original media assets. It is a sanitized portfolio documentation repository focused on the rebuild process, site structure, and design decisions.
 
 ## What It Demonstrates
 
@@ -23,9 +23,11 @@ This repository does not contain production credentials, private server settings
 
 ## Background
 
-The original website was based on XE and was initially maintained through an administrator account for uploading photos, videos, and basic content updates. Over time, the CMS became difficult to maintain, and after platform or hosting environment changes, the old site structure became unreliable.
+The original website was based on XE and was initially maintained through an administrator account for uploading photos, videos, and basic content updates.
 
-The website was rebuilt from the ground up using WordPress to create a more maintainable structure for church information, media content, gallery pages, and service-related access.
+Over time, the CMS became difficult to maintain. After platform or hosting environment changes, the old site structure became unreliable and difficult to preserve.
+
+The website was rebuilt from the ground up using WordPress to create a more maintainable structure for public information, media content, gallery pages, sermon resources, and service-related access.
 
 ## Main Areas of Work
 
@@ -34,7 +36,7 @@ The website was rebuilt from the ground up using WordPress to create a more main
 - Recreated public-facing content pages
 - Organized photo and media sections
 - Supported sermon and video access workflows
-- Added access path for live translation resources
+- Added an access path for live translation resources
 - Improved maintainability for future content updates
 
 ## Repository Structure
@@ -50,5 +52,29 @@ docs/
 
 samples/
   sample_menu_structure.md
-  sample_page_layout.html
-  sample_gallery_layout.html
+  sample_homepage_layout.html
+  sample_gallery_archive_layout.html
+  sample_media_archive_layout.html
+```
+
+## Documentation
+
+- `docs/background.md` explains the original situation and why the rebuild became necessary.
+- `docs/rebuild_goals.md` outlines the main goals of the rebuild.
+- `docs/information_architecture.md` documents the menu and page structure.
+- `docs/media_and_gallery_structure.md` explains the media and gallery organization.
+- `docs/translation_integration.md` documents the live translation access concept.
+- `docs/maintenance_notes.md` describes maintainability and privacy considerations.
+
+## Sample Files
+
+The sample files are simplified examples used to demonstrate the type of structure involved in the rebuild. They are not production website files.
+
+- `samples/sample_menu_structure.md`
+- `samples/sample_homepage_layout.html`
+- `samples/sample_gallery_archive_layout.html`
+- `samples/sample_media_archive_layout.html`
+
+## Notes
+
+This repository is intentionally sanitized. It focuses on design decisions, workflow structure, and rebuild documentation rather than exposing production website files, administrator settings, hosting details, or private organizational data.
