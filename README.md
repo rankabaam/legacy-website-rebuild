@@ -45,6 +45,7 @@ The website was rebuilt from the ground up using WordPress to create a more main
 docs/
   background.md
   rebuild_goals.md
+  rebuild_challenges.md
   information_architecture.md
   media_and_gallery_structure.md
   translation_integration.md
@@ -65,6 +66,7 @@ samples/
 - `docs/media_and_gallery_structure.md` explains the media and gallery organization.
 - `docs/translation_integration.md` documents the live translation access concept.
 - `docs/maintenance_notes.md` describes maintainability and privacy considerations.
+- `docs/rebuild_challenges.md` describes the operational and technical challenges involved in the rebuild.
 
 ## Sample Files
 
