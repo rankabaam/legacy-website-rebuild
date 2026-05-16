@@ -20,6 +20,7 @@ This repository does not contain production credentials, private server settings
 - Public-facing website maintenance for a real organization
 - Integration planning for media resources and live translation access
 - Practical troubleshooting under real operational constraints
+- Website structure planning connected to recurring sermon media production workflows
 
 ## Background
 
@@ -76,6 +77,7 @@ The sample files are simplified examples used to demonstrate the type of structu
 - `samples/sample_homepage_layout.html`
 - `samples/sample_gallery_archive_layout.html`
 - `samples/sample_media_archive_layout.html`
+- `samples/sample_sermon_video_page.html`
 
 ## Notes
 
