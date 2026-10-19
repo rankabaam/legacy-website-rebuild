@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Community Hangul Learning — Fictional Design Sample</title>
+<style>
+:root{--navy:#183554;--mint:#e5f6ef;--coral:#faddc8;--paper:#f8fafc;--ink:#1b2b3e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.7 "Malgun Gothic",system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+header{background:white;border-bottom:1px solid #dde7eb;position:sticky;top:0;z-index:2}
+nav{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:1100px;margin:auto;padding:12px 24px}
+nav a{color:var(--navy);text-decoration:none;margin-right:15px}nav a:focus-visible,a:focus-visible{outline:3px solid #387bb6;outline-offset:3px}
+.container{max-width:1100px;margin:auto;padding:65px 24px}.hero{background:linear-gradient(130deg,#eff8f4,#e5f0fa);padding:70px 0}
+.hero .layout{display:grid;grid-template-columns:1.3fr .7fr;align-items:center;gap:30px}
+h1{font-size:clamp(32px,4.4vw,55px);line-height:1.25;margin:0 0 15px}h2{font-size:30px;color:var(--navy)}
+.kicker{color:#346b5b;font-weight:700;letter-spacing:.06em}.abstract{min-height:250px;border-radius:28px;background:radial-gradient(circle at 30% 30%,#f1bf9b 0 14%,transparent 15%),radial-gradient(circle at 70% 60%,#8acdb8 0 22%,transparent 23%),#b8cfe3}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:white;padding:25px;border:1px solid #e0e8ef;border-radius:16px}
+.symbol{font-size:32px;color:#245575}.button{display:inline-block;background:var(--navy);color:white;text-decoration:none;border-radius:10px;padding:12px 19px;margin:8px 8px 0 0;font-weight:700}
+.button.alt{background:#f5e0d0;color:#183554}.band{background:var(--mint)}.info{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.tile{min-height:160px;border-radius:16px;background:#dbe9f1;display:grid;place-items:center;font-size:28px}
+.tile:nth-child(2){background:#e8efd2}.tile:nth-child(3){background:#f7dfce}
+footer{background:var(--navy);color:white;padding:26px;text-align:center}
+.notice{border-left:4px solid #a95724;background:#fff2e3;padding:10px 15px}
+@media(max-width:690px){nav{display:block}nav a{margin-right:12px}.container{padding:38px 16px}.hero .layout,.cards,.info,.gallery{grid-template-columns:1fr}.abstract{min-height:150px}header{position:static}}
+</style></head><body>
+<header><nav aria-label="페이지 메뉴"><strong>Community Learning Demo</strong><div>
+<a href="#intro">소개</a><a href="#curriculum">교육과정</a><a href="#term">학기 안내</a><a href="#gallery">활동</a><a href="#contact">문의</a></div></nav></header>
+<section class="hero"><div class="container layout"><div><p class="kicker">PUBLIC PORTFOLIO · SAMPLE DESIGN</p>
+<h1>함께 배우는 한글과 문화</h1><p>지역 커뮤니티를 위한 가상의 한국어 학습 프로그램 소개 페이지입니다.</p>
+<a class="button" href="#term">학기 안내 보기</a><a class="button alt" href="#curriculum">교육과정 보기</a></div>
+<div class="abstract" role="img" aria-label="추상적인 형태의 가상 배경 그래픽"></div></div></section>
+<section class="container" id="intro"><p class="kicker">OUR PROGRAM</p><h2>배움을 이어가는 공간</h2>
+<p>언어 학습을 즐겁고 꾸준하게 이어갈 수 있도록 읽기, 쓰기, 문화 체험을 균형 있게 소개합니다. 실제 운영기관의 교육과정이나 모집 정보는 사용하지 않았습니다.</p></section>
+<section class="container" id="curriculum"><p class="kicker">CURRICULUM</p><h2>교육 프로그램</h2>
+<div class="cards"><article class="card"><div class="symbol" aria-hidden="true">가</div><h3>한글 기초</h3><p>자음과 모음을 읽고 조합하는 활동을 소개합니다.</p></article>
+<article class="card"><div class="symbol" aria-hidden="true">한</div><h3>표현과 읽기</h3><p>기초 어휘, 문장 읽기, 짧은 글쓰기를 연습하는 예시입니다.</p></article>
+<article class="card"><div class="symbol" aria-hidden="true">문</div><h3>문화 체험</h3><p>전통 놀이와 이야기를 통해 언어의 배경을 경험합니다.</p></article></div></section>
+<section class="band" id="term"><div class="container"><p class="kicker">AUTUMN TERM · EXAMPLE ONLY</p><h2>가상 학기 안내</h2>
+<div class="info"><div><h3>학습 대상</h3><p>초급 학습자를 위한 예시 안내입니다. 실제 대상·시간·장소·모집 일정은 포함하지 않았습니다.</p></div>
+<div><h3>참여 방법</h3><p>아래 문의 영역은 설명용입니다. 실제 신청이 접수되거나 외부 페이지로 이동하지 않습니다.</p></div></div></div></section>
+<section class="container" id="gallery"><p class="kicker">ACTIVITIES</p><h2>활동 미리보기</h2>
+<div class="gallery"><div class="tile" role="img" aria-label="가상 한글 글자 일러스트">ㄱ ㄴ ㄷ</div><div class="tile" role="img" aria-label="가상의 학습 자료 일러스트">가 나 다</div><div class="tile" role="img" aria-label="가상의 문화 수업 일러스트">한 국 어</div></div></section>
+<section class="container" id="contact"><p class="kicker">CONTACT / APPLY</p><h2>문의 및 신청 안내</h2>
+<div class="notice">포트폴리오 데모입니다. 실제 문의·신청 링크, 개인정보 수집 또는 외부 네트워크 전송 기능은 없습니다.</div>
+<p>실제 서비스에서는 검증된 공식 문의 및 신청 경로로 연결될 위치입니다.</p><a class="button" href="#intro">페이지 맨 위 내용으로</a></section>
+<footer>Independent responsive design study · Fictional content · No real registration</footer>
+</body></html>
