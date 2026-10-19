@@ -2,6 +2,19 @@
 
 A sanitized WordPress rebuild case study focused on maintainability, information architecture, recurring media operations, and public-facing reliability.
 
+## Portfolio Update: Community Language School and Latest-Message Pattern (October 2026)
+
+Added a **self-contained, responsive Korean language learning landing-page sample** inspired by recent community-page design work, and a **fictional recent-message layout** illustrating the WordPress Query Loop pattern. These are deliberately standalone demonstrations: no production WordPress export, credentials, live forms, or original site theme are published.
+
+- [Responsive language-program sample](samples/community_hangul_program.html)
+- [Illustrative recent-message cards](samples/sample_recent_sermons.html)
+- [Language-program design notes](docs/hangul_program_case_study.md)
+- [Latest-message archive pattern](docs/latest_messages_query_loop.md)
+
+Run the independent tests with `python -m unittest discover -s tests -v`. Download the HTML files to view them in a browser. **This commit does not deploy or modify the live site.**
+
+---
+
 ## Overview
 
 This project documents the replacement of an aging legacy CMS with a more maintainable WordPress-based structure. The work included assessing inherited content, rebuilding navigation, reorganizing public media, and connecting the website to recurring workflows such as event updates, sermon publishing, and live-translation access.
